@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>モンハンワイルズレア環境生物攻略サイト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>モンハンワイルズレア環境生物攻略サイト</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro"><strong>概要</strong></a></li>
+                <li><a href="#rare"><strong>レア環境生物</strong></a></li>
+                <li><a href="#    "> </a></li>
+                <li><a href="#tips">捕獲のコツ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <script>
+            function showInfo(id) {
+                const allInfo = document.querySelectorAll('.info');
+                allInfo.forEach(el => el.classList.remove('active'));
+
+                const target = document.getElementById(id);
+                if (target) {
+                    target.classList.add('active');
+                }
+            }
+        </script>
+        <section id="netabare">
+            <h3>※ネタバレを含む為、苦手な方はブラウザバックを推奨しています。</h3>
+        </section>
+        <section id="intro">
+            <h2>レア環境生物とは？</h2>
+            <p>レア環境生物は、特定の条件下で出たり、出現確率が低くなかなか出会えなかったりする環境生物です。</p>
+            <p>その為、根気よく周回する必要があります。</p>
+        </section>
+
+        <section id="mokuji">
+            
+        </section>
+
+        <section id="rare">
+            <h2>レア環境生物</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>アイコン</th>
+                        <th>名前</th>
+                        <th>生息場所</th>
+                        <th>環境</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>クロカゼカケリ</td>
+                        <td>隔ての砂原</td>
+                        <td>いつでも出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>ビセイウタイズク</td>
+                        <td>隔ての砂原</td>
+                        <td><strong>豊穣期から荒廃期へ変わる時のみ</strong>出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>スナノリュウセイ</td>
+                        <td>隔ての砂原</td>
+                        <td><strong>豊穣期か荒廃期の夜</strong>に出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>コットウサカズキガニ</td>
+                        <td>隔ての砂原/緋の森</td>
+                        <td>いつでも出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>コモチアミア</td>
+                        <td>隔ての砂原/緋の森/油湧き谷/氷霧の断崖/竜都の跡形/大集会所
+                        <td>いつでも出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>ケンランプテルス</td>
+                        <td>緋の森</td>
+                        <td>いつでも出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>プレミアジュエルコガネ</td>
+                        <td>緋の森</td>
+                        <td>いつでも出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>ゴールデンヘラクレス</td>
+                        <td>緋の森</td>
+                        <td><strong>豊穣期の夜</strong>に出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>グランドエスカナイト</td>
+                        <td>緋の森</td>
+                        <td>いつでも出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>ダイオウカジキ</td>
+                        <td>緋の森</td>
+                        <td>荒廃期/異常気象</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>ニョウドウイカ</td>
+                        <td>緋の森</td>
+                        <td>夜</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>カセキカンス</td>
+                        <td>緋の森/油湧き谷</td>
+                        <td>夜</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>リンエンエリトカゲ</td>
+                        <td>油湧き谷</td>
+                        <td>いつでも出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>タイリンハナミアゲ</td>
+                        <td>油湧き谷</td>
+                        <td>豊穣期</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>ヌヤヤ</td>
+                        <td>油湧き谷</td>
+                        <td>いつでも出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>フワフワクイナ</td>
+                        <td>氷霧の断崖</td>
+                        <td>荒廃期</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>ギョムドン</td>
+                        <td>竜都の跡形</td>
+                        <td>いつでも出現する</td>
+                    </tr>
+                    <tr>
+                        <td>アイコン</td>
+                        <td>虹色ドスヘラクレス</td>
+                        <td>竜都の跡形</td>
+                        <td>いつでも出現する</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section id="hedate">
+
+            <body>
+                <h2>隔ての砂原</h2>
+                <span class="icon" onclick="showInfo('info1')">クロカゼ</span>
+                <span class="icon" onclick="showInfo('info2')">ビセイ</span>
+                <span class="icon" onclick="showInfo('info3')">スナ</span>
+                <span class="icon" onclick="showInfo('info4')">コットウ</span>
+                <span class="icon" onclick="showInfo('info5')">アミア</span>
+
+
+                <div id="info1" class="info">
+                    <strong>クロカゼカケリ</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>隔ての砂原 エリア8、10</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <div id="info2" class="info">
+                    <strong>ビセイウタイズク</strong>
+                    <table>
+                        <tr>
+                            <th>場所</th>
+                            <td>隔ての砂原 エリア8</td>
+                        </tr>
+                        <tr>
+                            <th>条件</th>
+                            <td><strong>豊穣期から荒廃期</strong>に変わる時のみ</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="info3" class="info">
+                    <strong>スナノリュウセイ</strong>
+                    <table>
+                        <tr>
+                            <th>場所</th>
+                            <td>隔ての砂原 エリア11と16の間</td>
+                        </tr>
+                        <tr>
+                            <th>条件</th>
+                            <td>豊穣期/荒廃期（<strong>夜</strong>限定）</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="info4" class="info">
+                    <strong>コットウサカズキガニ</strong>
+                    <table>
+                        <tr>
+                            <th>場所</th>
+                            <td>隔ての砂原 エリア6と17</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="info5" class="info">
+                    <strong>コモチアミア</strong>
+                    <table>
+                        <tr>
+                            <th>場所</th>
+                            <td>隔ての砂原 エリア13のオアシス</td>
+                        </tr>
+                    </table>
+                </div>
+            </body>
+        </section>
+
+        <section id="hinomori">
+
+            <body>
+                <h2>緋の森</h2>
+                <span class="icon" onclick="showInfo('info10')">ケンラン</span>
+                <span class="icon" onclick="showInfo('info20')">プレミア</span>
+                <span class="icon" onclick="showInfo('info30')">金</span>
+                <span class="icon" onclick="showInfo('info40')">コットウ</span>
+                <span class="icon" onclick="showInfo('info50')">アミア</span>
+                <span class="icon" onclick="showInfo('info60')">カジキ</span>
+                <span class="icon" onclick="showInfo('info70')">カセキ</span>
+                <span class="icon" onclick="showInfo('info80')">ナイト</span>
+                <span class="icon" onclick="showInfo('info90')">イカ</span>
+
+                <div id="info10" class="info">
+                    <strong>ケンランプテルス</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>緋の森 エリア14</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>豊穣期</td>
+                    </table>
+                </div>
+
+                <div id="info20" class="info">
+                    <strong>プレミアジュエルコガネ</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>緋の森 エリア1、2にある蜜が付着している木</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>昼</td>
+                    </table>
+                </div>
+
+                <div id="info30" class="info">
+                    <strong>ゴールデンヘラクレス</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>緋の森 エリア1、2にある蜜が付着している木</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>豊穣期（夜）</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="info40" class="info">
+                    <strong>コットウサカズキガニ</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>緋の森 エリア8</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="info50" class="info">
+                    <strong>コモチアミア</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>緋の森 ベースキャンプ、エリア1、12、17</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="info60" class="info">
+                    <strong>ダイオウカジキ</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>緋の森 エリア17</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>荒廃期（朝or夕方）</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="info70" class="info">
+                    <strong>カセキカンス</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>エリア16</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>異常気象（夜）</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="info80" class="info">
+                    <strong>グランドエスカナイト</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>緋の森 エリア8、17</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="info90" class="info">
+                    <strong>ニョウドウイカ</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>緋の森 エリア17</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>異常気象（夜）</td>
+                        </tr>
+                    </table>
+                </div>
+            </body>
+        </section>
+        <section id="aburawakitani">
+
+            <body>
+                <h2>油湧き谷</h2>
+
+                <span class="icon" onclick="showInfo('info11')">タイリン</span>
+                <span class="icon" onclick="showInfo('info22')">ヌヤヤ</span>
+                <span class="icon" onclick="showInfo('info33')">リンエン</span>
+                <span class="icon" onclick="showInfo('info44')">コモチ</span>
+
+                <div id="info11" class="info">
+                    <strong>タイリンハナミアゲ</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>油湧き谷 エリア13、14</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>豊穣期</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="info22" class="info">
+                    <strong>ヌヤヤ</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>油湧き谷 エリア17</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>
+                                <p>①異常気象/歴戦ヌ・エグドラがいる状態にする</p>
+                                <p>②エリア17でヌ・エグドラが産卵しているか確認する</p>
+                                <p>③環境を豊穣期に変えて再度訪れる</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="info33" class="info">
+                    <strong>リンエンエリトカゲ</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>油湧き谷 エリア8、9、15</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="info44" class="info">
+                    <strong>コモチアミア</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>油湧き谷 エリア12</td>
+                        </tr>
+                    </table>
+                </div>
+            </body>
+        </section>
+        <section id="hyoumunodanngai">
+
+            <body>
+                <h2>氷霧の断崖</h2>
+
+                <span class="icon" onclick="showInfo('info01')">フワフワ</span>
+                <span class="icon" onclick="showInfo('info02')">コモチ</span>
+
+                <div id="info01" class="info">
+                    <strong>フワフワクイナ</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>氷霧の断崖 エリア8、10、12、13、17にいるラフマーの背中に乗っている</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>荒廃期</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="info02" class="info">
+                    <strong>コモチアミア</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>氷霧の断崖 エリア1の水場</td>
+                        </tr>
+                    </table>
+                </div>
+            </body>
+        </section>
+        <section id="ryuutonoatokata">
+
+            <body>
+                <h2>竜都の跡形</h2>
+
+                <span class="icon" onclick="showInfo('info100')">ギョム</span>
+                <span class="icon" onclick="showInfo('info200')">虹色</span>
+                <span class="icon" onclick="showInfo('info300')">コモチ</span>
+
+                <div id="info100" class="info">
+                    <strong>ギョムドン</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>竜都の跡形 エリア1、8、14の壁に張り付いている</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="info200" class="info">
+                    <strong>虹色ドスヘラクレス</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>竜都の跡形 エリア5の木</td>
+                        </tr>
+                        <tr>
+                            <td>条件</td>
+                            <td>荒廃期（竜のまどろみ）の<strong>深夜</strong></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="info300" class="info">
+                    <strong>コモチアミア</strong>
+                    <table>
+                        <tr>
+                            <td>場所</td>
+                            <td>竜都の跡形 エリア8</td>
+                        </tr>
+                    </table>
+                </div>
+            </body>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 モンハンレア環境生物攻略サイト</p>
+    </footer>
+</body>
+
+</html>
